@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         byte oS = 0;
-        short year = 2023;
+        short year = 2024;
         int distance = 50;
         calculationOfYear(year);
         definitionOfSystem(oS, year);
@@ -16,7 +16,7 @@ public class Main {
 
 
         if (clientDeviceYear >= currentYear) {
-            System.out.print("Установите версию приложения для ");
+            System.out.print("Установите обычную версию приложения для ");
         } else {
             System.out.print("Установите облегченную версию приложения для ");
         }
